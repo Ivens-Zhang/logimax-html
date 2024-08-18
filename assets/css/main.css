@@ -7974,10 +7974,27 @@ input.main-search-input::placeholder {
   background-color: var(--white);
   position: relative;
   z-index: 9;
+  height: 30rem;
 }
-@media (max-width: 575px) {
+.pricing-header-video-wrapper {
+  height: 15rem;
+}
+@media (min-width: 768px) {
   .single-pricing-items .pricing-header {
     padding: 40px;
+    height: 35rem;
+  }
+  .pricing-header-video-wrapper {
+    height: 20rem;
+  }
+}
+@media (min-width: 992px) {
+  .single-pricing-items .pricing-header {
+    padding: 40px;
+    height: 40rem;
+  }
+  .pricing-header-video-wrapper {
+    height: 30rem;
   }
 }
 .single-pricing-items .pricing-header h2 {
@@ -9966,4 +9983,57 @@ p.sticky-label {
 }
 .footer-bottom .footer-bottom-wrapper p a:hover {
   color: var(--theme);
+}
+.custom-iphone-container {
+  padding: 0.5rem 1rem; 
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 767px) {
+  .custom-iphone-container {
+    flex-direction: column;
+    max-height: 21rem;
+    overflow: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+  }
+  .custom-container::-webkit-scrollbar {
+    display: none; 
+}
+}
+
+/*手机尺寸*/
+.custom-iphone-wrapper {
+  width: 8rem; 
+  height: 16rem; 
+}
+@media (min-width: 768px) {
+  .custom-iphone-wrapper {
+    width: 10rem;
+    height: 20rem;
+  }
+}
+@media (min-width: 992px) {
+  .custom-iphone-wrapper {
+    width: 12rem;
+    height: 24rem;
+  }
+}
+
+/*视频尺寸*/
+.custom-video-wrapper {
+  width: 6rem; 
+  height: 6rem; 
+}
+@media (min-width: 768px) {
+  .custom-video-wrapper {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+@media (min-width: 992px) {
+  .custom-video-wrapper {
+    width: 20rem;
+    height: 18rem;
+  }
 }
