@@ -163,80 +163,66 @@
   </div>
 
   <!--<< Breadcrumb Section Start >>-->
-  <div class="breadcrumb-wrapper bg-cover section-padding" style="background-image: url('assets/img/breadcrumb.jpg')">
-    <div class="layer-shape wow fadeInLeft" data-wow-delay=".3s">
-      <img src="assets/img/layer-shape-3.png" alt="shape-img" />
+  <div class="breadcrumb-wrapper section-padding bg-cover" style="position: relative; overflow: hidden;">
+    <!-- 背景图像层 -->
+    <div class="background-blur"
+      style="background-image: url('assets/img/service-breadcrumb.jpg'); filter: blur(5px); position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; background-size: cover; background-position: center;">
     </div>
-    <!-- <div class="breadcrumb-shape wow fadeInRight" data-wow-delay=".5s">
-      <img src="assets/img/breadcrumb-shape.png" alt="shape-img" />
-    </div> -->
-
-    <header>
-      <div id="header-sticky" class="header-2" style="margin-top: -100px;">
-        <div class="container-fluid">
-          <div class="mega-menu-wrapper">
-            <div class="header-main">
-              <div class="header-center">
-                <div class="logo">
-                  <a href="index.html" class="header-logo">
-                    <img src="assets/img/logo/logo.svg" alt="logo-img"
-                      style="width:150px;height: 100px; top:20px; left:5px ">
-                  </a>
-                </div>
-                <div class="mean__menu-wrapper d-none d-lg-block w-100">
-                  <div class="main-menu">
-                    <nav id="mobile-menu">
-                      <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li>
-                          <a href="about.html">About</a>
-                        </li>
-                        <li>
-                          <a href="pricing.html">
-                            Services
-                          </a>
-
-                        </li>
-                        <li>
-                          <a href="b2b.html">
-                            B2B
-                          </a>
-                        </li>
-                        <li>
-                          <a href="contact.html">Contact</a>
-                        </li>
-                      </ul>
-                    </nav>
+    <!-- 内容层 -->
+    <div class="content-layer" style="position: relative; z-index: 2;">
+      <div class="layer-shape wow fadeInLeft" data-wow-delay=".3s">
+        <img src="assets/img/layer-shape-3.png" alt="shape-img">
+      </div>
+      <header>
+        <div id="header-sticky" class="header-2" style="margin-top: -100px;">
+          <div class="container-fluid">
+            <div class="mega-menu-wrapper">
+              <div class="header-main">
+                <div class="header-center">
+                  <div class="logo">
+                    <a href="index.html" class="header-logo">
+                      <img src="assets/img/logo/logo.svg" alt="logo-img"
+                        style="width:150px;height: 100px; top:20px; left:5px;">
+                    </a>
+                  </div>
+                  <div class="mean__menu-wrapper d-none d-lg-block w-100">
+                    <div class="main-menu">
+                      <nav id="mobile-menu">
+                        <ul>
+                          <li><a href="index.html">Home</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="pricing.html">Services</a></li>
+                          <li><a href="b2b.html">B2B</a></li>
+                          <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                      </nav>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="header-right d-flex justify-content-end align-items-center">
-                <div class="header-button">
-                  <a href="contact.html" class="theme-btn">GET A QUOTE</a>
-                </div>
-                <div class="header__hamburger d-lg-none my-auto">
-                  <div class="sidebar__toggle">
-                    <i class="fa-solid fa-bars"></i>
+                <div class="header-right d-flex justify-content-end align-items-center">
+                  <div class="header-button">
+                    <a href="contact.html" class="theme-btn">GET A QUOTE</a>
+                  </div>
+                  <div class="header__hamburger d-lg-none my-auto">
+                    <div class="sidebar__toggle">
+                      <i class="fa-solid fa-bars"></i>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <div class="container">
-      <div class="page-heading">
-        <h1 class="wow fadeInUp" data-wow-delay=".3s">Services</h1>
-        <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-          <li>
-            <a href="index.html"> Home Page </a>
-          </li>
-          <li>
-            <i class="fal fa-minus"></i>
-          </li>
-          <li>Services</li>
-        </ul>
+      </header>
+      <div class="container">
+        <div class="page-heading">
+          <h1 class="wow fadeInUp" data-wow-delay=".3s">Services</h1>
+          <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
+            <!-- <li><a href="index.html">Home Page</a></li>
+            <li><i class="fal fa-minus"></i></li>
+            <li>Services</li> -->
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -248,16 +234,70 @@
         <h2 class="wow fadeInUp" data-wow-delay=".3s"><a id="Brand_Promotion">Brand Promotion</a></h2>
       </div>
       <div class="row">
-        <div class="col-xl-3 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".3s">
+        <div class="col-xl-12 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".3s">
           <div class="single-pricing-items">
-            <div class="pricing-header" style="height: 18rem;">
-              <h2>$1999 <sub></sub></h2>
+            <div class="pricing-header text-center" style="height: 40rem;">
+              <h2>$2999<sub></sub></h2>
               <span>Production of Chinese Promotional Materials</span>
+              <div style="padding: 2rem 8rem;display: flex;justify-content: space-around;">
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                  <div class="iphoneContainer" style="display: block;">
+                    <div class="iphone"
+                      style="width: 12rem;height: 24rem; z-index: 999;overflow: hidden;margin-top: 2rem;background-image: url(./assets/img/service/iPhone2.png); overflow: hidden;background-size: contain;background-repeat: no-repeat;display: flex;justify-content: center;align-items: center;">
+                      <div style="border-radius: 2rem;width: 90%;height: 94%;background-color: white;overflow: hidden;">
+                        <div class="content"
+                          style="width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;justify-content: center;position: relative;">
+                          <img src="assets/img/service/article.png" alt="logo-img" style="width: 100%;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>WeChat Article</div>
+                </div>
+                
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                  <div class="iphoneContainer" style="display: block;">
+                    <div class="iphone"
+                      style="width: 12rem;height: 24rem; z-index: 999;overflow: hidden;margin-top: 2rem;background-image: url(./assets/img/service/iPhone2.png); overflow: hidden;background-size: contain;background-repeat: no-repeat;display: flex;justify-content: center;align-items: center;">
+                      <div style="border-radius: 2rem;width: 90%;height: 94%;background-color: white;overflow: hidden;">
+                        <div class="content"
+                          style="width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;justify-content: center;position: relative;">
+                          <img src="assets/img/service/marketing.jpg" alt="logo-img" style="width: 100%;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>Marketing Brochure</div>
+                </div>
+              
+                <div style="display: flex;flex-direction: column;align-items: center;">
+                  <div class="iphoneContainer" style="display: block;">
+                    <div class="iphone"
+                      style="width: 12rem;height: 24rem; z-index: 999;overflow: hidden;margin-top: 2rem;background-image: url(./assets/img/service/iPhone2.png); overflow: hidden;background-size: contain;background-repeat: no-repeat;display: flex;justify-content: center;align-items: center;">
+                      <div style="border-radius: 2rem;width: 90%;height: 94%;background-color: white;overflow: hidden;">
+                        <div class="content"
+                          style="width: 100%;height: 100%;display: flex;flex-direction: column;align-items: center;justify-content: center;position: relative;">
+                          <img src="assets/img/service/product.jpg" alt="logo-img" style="width: 100%;">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div>Product Flyers</div>
+                </div>
+              </div>
+              
             </div>
-            <ul style="height: 25rem; overflow: auto">
+            <ul style="height: 13rem; overflow: auto">
               <li>
                 <i class="fas fa-check"></i>
-                We specialize in creating stunning Chinese electronic versions of winery promotional brochures and wine product flyers, as well as writing exquisite WeChat articles that highlight the brand introduction, product details, and recruitment information.
+                We specialize in creating stunning Chinese electronic versions of winery promotional brochures and wine
+                product flyers, as well as writing exquisite WeChat articles that highlight the brand introduction,
+                product details, and recruitment information.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Complimentary Service: All promotional materials will be sent to 100 Chinese wine agents who are already
+                working with us, helping the winery develop Chinese agents.
               </li>
               <!-- <li>
                 <i class="fas fa-check"></i>
@@ -271,9 +311,66 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".5s">
+        <div class="col-xl-12 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".5s">
           <div class="single-pricing-items">
-            <div class="pricing-header" style="height: 18rem;">
+            <div class="pricing-header text-center" style="height: 30rem;">
+              <h2>$5999 <sub></sub></h2>
+              <span>Commercial Video Production<br>( 2-3 minutes length) </span>
+              <div style="display: flex;justify-content: space-around;margin-top: 1rem;">
+                <iframe style="width: 22rem; height: 16rem;margin-top: 1rem;"
+                  src="https://www.youtube.com/embed/VoAMc3gK_sQ?si=9BufuxsSLCaCkYRx" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe style="width: 22rem; height: 16rem;margin-top: 1rem;"
+                  src="https://www.youtube.com/embed/W70wHJgfyK4?si=b9UpRk5IQIfr7tQ7" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <iframe style="width: 22rem; height: 16rem;margin-top: 1rem;"
+                  src="https://www.youtube.com/embed/RLo76zxKXVM?si=5Ww4quVM9VTpHehq" title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </div>
+            <ul style="height: 25rem; overflow: auto">
+              <li>
+                <i class="fas fa-check"></i>
+                We specialize in shooting promotional video for winery, covering aspects such as team members, unique
+                winemaking techniques and philosophy, architecture, restaurant, accommodation, function rooms, cellar
+                door, vineyards, winemaking equipment and more. The video will highlight the brand’s core values,
+                culture, history, stories, products, and recruitment information for agents, fulfilling all promotional
+                filming needs. Additionally, we will utilize video editing technology to create several standalone short
+                videos based on different promotional scenarios and products. This allows wineries to select and publish
+                short videos featuring different scenes on their website and social media platforms for the promotion of
+                specific products.
+              </li>
+              <li>
+                <i class="fas fa-check"></i>
+                Complimentary Services:
+              </li>
+              <li>
+                <i class="fa-solid fa-circle" style="font-size: xx-small;margin-right: .5rem;"></i>
+The completed promotional video with bilingual subtitles (Chinese and English) will be published on
+                various Chinese social media platforms under our Chinese company, including TikTok, WeChat, Weibo, and
+                Xiaohongshu. This will directly target 100 million Chinese consumers, increasing the winery’s brand
+                awareness in China.
+              </li>
+              <li>
+                <i class="fa-solid fa-circle" style="font-size: xx-small;margin-right: .5rem;"></i>
+                The completed promotional video will be sent to 100 Chinese wine agents who are already working with
+                us, helping the winery develop Chinese agents.
+              </li>
+            </ul>
+            <div class="shape-image">
+              <img src="assets/img/shape-2.png" alt="shape-img" />
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-12 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".5s">
+          <div class="single-pricing-items">
+            <div class="pricing-header text-center" style="height: 12rem;">
               <h2>Pending <sub></sub></h2>
               <span>Tasting Event for Attracting Agents</span>
               <div class="icon-area">
@@ -281,10 +378,15 @@
                 </div>
               </div>
             </div>
-            <ul style="height: 25rem; overflow: auto">
+            <ul style="height: 12rem; overflow: auto">
               <li>
                 <i class="fas fa-check"></i>
-                The winery representative can join via video throughout the event to share the brand story, product highlights, and recruitment conditions, directly engaging with the potential Chinese agents in real-time and eliminating information asymmetry. After the event, we will compile and share participant feedback with the winery. Based on this feedback, we will assist the winery in developing follow-up plans to ensure timely professional consultation and services for potential customers, ultimately securing agency cooperation and boosting export growth.
+                The winery representative can join via video throughout the event to share the brand story, product
+                highlights, and recruitment conditions, directly engaging with the potential Chinese agents in real-time
+                and eliminating information asymmetry. After the event, we will compile and share participant feedback
+                with the winery. Based on this feedback, we will assist the winery in developing follow-up plans to
+                ensure timely professional consultation and services for potential customers, ultimately securing agency
+                cooperation and boosting export growth.
               </li>
             </ul>
             <div class="shape-image">
@@ -293,9 +395,9 @@
           </div>
         </div>
 
-        <div class="col-xl-3 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".5s">
+        <div class="col-xl-12 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".5s">
           <div class="single-pricing-items">
-            <div class="pricing-header" style="height: 18rem;">
+            <div class="pricing-header text-center" style="height: 12rem;">
               <h2>Pending <sub></sub></h2>
               <span>
                 Cross-border Live Streaming for Attracting Agents</span>
@@ -304,10 +406,16 @@
                 </div>
               </div>
             </div>
-            <ul style="height: 25rem; overflow: auto" id="cxctest" onmouseover="startScroll()"  onmousemove="stopScroll()">
+            <ul style="height: 12rem; overflow: auto" id="cxctest" onmouseover="startScroll()"
+              onmousemove="stopScroll()">
               <li>
                 <i class="fas fa-check"></i>
-                Through cross-border live streaming, tens of thousands or even hundreds of thousands of Chinese consumers can visually experience the history, culture, winemaking philosophy, architectural style, and unique features of the wineries. This not only increases the brand's exposure in the Chinese market but also demonstrates its embrace of digital trends and innovation. Simultaneously, live broadcasting allows wineries to communicate in real-time with potential Chinese agents and receive immediate feedback, thereby increasing the number of potential customers for the wineries.
+                Through cross-border live streaming, tens of thousands or even hundreds of thousands of Chinese
+                consumers can visually experience the history, culture, winemaking philosophy, architectural style, and
+                unique features of the wineries. This not only increases the brand's exposure in the Chinese market but
+                also demonstrates its embrace of digital trends and innovation. Simultaneously, live broadcasting allows
+                wineries to communicate in real-time with potential Chinese agents and receive immediate feedback,
+                thereby increasing the number of potential customers for the wineries.
               </li>
             </ul>
             <div class="shape-image">
@@ -315,48 +423,26 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-3 col-md-3 wow fadeInUp" data-wow-delay=".5s">
-          <div class="single-pricing-items">
-            <div class="pricing-header" style="height: 18rem;">
-              <h2>$5999 <sub></sub></h2>
-              <span>Commercial Video Production<br>( 2-3 minutes length) </span>
-            </div>
-            <ul style="height: 25rem; overflow: auto">
-              <li>
-                <i class="fas fa-check"></i>
-                We specialize in shooting promotional video for winery, covering aspects such as team members, unique winemaking techniques and philosophy, architecture, restaurant, accommodation, function rooms, cellar door, vineyards, winemaking equipment and more. The video will highlight the brand’s core values, culture, history, stories, products, and recruitment information for agents, fulfilling all promotional filming needs. Additionally, we will utilize video editing technology to create several standalone short videos based on different promotional scenarios and products. This allows wineries to select and publish short videos featuring different scenes on their website and social media platforms for the promotion of specific products.
-              </li>
-            </ul>
-            <div class="shape-image">
-              <img src="assets/img/shape-2.png" alt="shape-img" />
-            </div>
-          </div>
-        </div>
+
       </div>
     </div>
   </section>
 
   <!-- Choose Us Section Start -->
   <section class="choose-us-section fix section-padding" style=" padding-top: 0;padding-bottom: 0;">
-    <div class="left-shape float-bob-y">
-      <img src="assets/img/shape-5.png" alt="shape-img" />
-    </div>
     <div class="container">
       <div class="choose-wrapper style-2 mb-0">
         <div class="row">
           <div class="col-xl-12 col-lg-12 mt-5 mt-lg-0">
             <div class="choose-content">
-              <div class="section-title wow fadeInUp" data-wow-delay=".3s">
+              <div class="section-title text-center wow fadeInUp" data-wow-delay=".3s">
                 <a id="Brand_Management">
                   <h2>Brand Management and Operations</h2>
                 </a>
               </div>
               <p class="mt-4 mt-md-0 wow fadeInUp" data-wow-delay=".5s">
-                A supplementary service provided to wineries that
-                participate in all Brand Promotion services (excluding Wine
-                Exhibition).
               </p>
-              <div class="icon-area style-2 wow fadeInUp row gap-5 justify-content-center" style="width: 95%;"
+              <div class="icon-area style-2 wow fadeInUp row gap-5 justify-content-end" style="width: 95%;"
                 data-wow-delay=".7s">
                 <div class="icon-items active col-xl-5">
                   <div class="content">
@@ -437,10 +523,9 @@
     </div>
     <div class="container">
       <div class="row align-items-center justify-content-between">
-        <div class="col-lg-6">
-          <div class="section-title style-2">
-            <span class="wow fadeInUp">What We Provide </span>
-            <a id="Other_Services">
+        <div class="col-lg-12">
+          <div class="section-title text-center wow fadeInUp">
+            <a>
               <h2 class="wow fadeInUp" data-wow-delay=".3s">Other Services</h2>
             </a>
           </div>
@@ -615,97 +700,97 @@
     </div>
   </section>
 
-   <!-- Footer Section Start -->
-    <footer class="footer-section fix footer-bg">
-        <div class="container">
-            <div class="footer-widgets-wrapper">
-                <div class="row">
-                    <div class="col-xl-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="single-footer-widget">
-                            <div
-                                style=" position: relative; display: flex; justify-content: center; height: 8rem; width: 100%;">
-                                <img src="assets/img/logo/logo.svg" alt="logo-img"
-                                    style="position: absolute; height: 13rem; bottom:-2rem; ">
-                            </div>
-                            <div class="footer-content">
-                                <p>
-                                    Promote the digital transformation and sustainable development of the global wine
-                                    industry.
-                                </p>
-                                <div class="social-icon d-flex align-items-center">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-brands fa-youtube"></i></a>
-                                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
-                                <h3>Navigation</h3>
-                            </div>
-                            <ul class="list-area">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="pricing.html">Services</a></li>
-                                <li><a href="b2b.html">B2B</a></li>
-                                <li><a href="contact.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 ps-lg-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                        <div class="single-footer-widget">
-                            <div class="widget-head">
-                                <h3>Services</h3>
-                            </div>
-                            <ul class="list-area">
-                                <li><a href="pricing.html#Brand_Promotion">Brand Promotion</a></li>
-                                <li><a href="pricing.html#Brand_Management">Brand Management And Operations</a></li>
-                                <li><a href="pricing.html#Other_Services">Other Services</a></li>
-                            </ul>
-                        </div>
-                    </div>
+  <!-- Footer Section Start -->
+  <footer class="footer-section fix footer-bg">
+    <div class="container">
+      <div class="footer-widgets-wrapper">
+        <div class="row">
+          <div class="col-xl-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+            <div class="single-footer-widget">
+              <div style=" position: relative; display: flex; justify-content: center; height: 8rem; width: 100%;">
+                <img src="assets/img/logo/logo.svg" alt="logo-img"
+                  style="position: absolute; height: 13rem; bottom:-2rem; ">
+              </div>
+              <div class="footer-content">
+                <p>
+                  Promote the digital transformation and sustainable development of the global wine
+                  industry.
+                </p>
+                <div class="social-icon d-flex" style="justify-content: center; gap: 2rem;">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin"></i></a>
                 </div>
+              </div>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="footer-bottom-wrapper">
-                    <p style="width: 100%;display:block;text-align:center">
-                        Copyright © 2024 ONE 9&9 by <a href="https://dreamoontech.com/"> DreamoonTech</a>.
-                    </p>
-                </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".5s">
+            <div class="single-footer-widget">
+              <div class="widget-head">
+                <h3>Navigation</h3>
+              </div>
+              <ul class="list-area">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="pricing.html">Services</a></li>
+                <li><a href="b2b.html">B2B</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-xl-4 ps-lg-5 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".7s">
+            <div class="single-footer-widget">
+              <div class="widget-head">
+                <h3>Services</h3>
+              </div>
+              <ul class="list-area">
+                <li><a href="pricing.html#Brand_Promotion">Brand Promotion</a></li>
+                <li><a href="pricing.html#Brand_Management">Brand Management And Operations</a></li>
+                <li><a href="pricing.html#Other_Services">Other Services</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-    </footer>
-
-  <div id="cxctest2" style="
-  width: 200px; height: 500px; overflow: hidden; position: relative; border: 1px solid #ccc; 
-  background-image: url('./assets/img/service/iphone.png'); background-size: contain; background-repeat: no-repeat;">
-    <div id="content" style="width: 100%; height: 370px; display: flex; flex-direction: column; 
-      align-items: center; overflow: hidden; position: relative;">
-      <div style="width: 100%; height: 1000px; position: absolute;">
-        <img src="assets/img/service/WechatIMG69.jpg" alt="logo-img"
-        style="width: 100%; padding: 20px; overflow: hidden;">
       </div>
     </div>
-  </div>
-
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="footer-bottom-wrapper">
+          <p style="width: 100%;display:block;text-align:center">
+            Copyright © 2024 ONE 9&9 by <a href="https://dreamoontech.com/"> DreamoonTech</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script>
-    var scrollInterval;
-    function startScroll() {
-      var container = document.getElementById('cxctest2');
-      scrollInterval = setInterval(function () {
-        container.scrollTop += 1; // 调整这里的数字来改变滚动速度
-      }, 10); // 调整这里的时间来改变触发滚动的频率
+    var scrollIntervals = {};
+  
+    function startScroll(event) {
+      var content = event.currentTarget.querySelector('.content');
+      scrollIntervals[content] = setInterval(function () {
+        var topValue = parseInt(content.style.top || 0, 10);
+        content.style.top = (topValue - 1) + 'px'; // Move content up
+      }, 10);
     }
-    function stopScroll() {
-      clearInterval(scrollInterval);
+  
+    function stopScroll(event) {
+      var content = event.currentTarget.querySelector('.content');
+      clearInterval(scrollIntervals[content]);
+      content.style.top = '0px'; // Reset position on stop
     }
+  
+    var iphones = document.querySelectorAll('.iphone');
+    iphones.forEach(function(iphone) {
+      iphone.addEventListener('mouseenter', startScroll);
+      iphone.addEventListener('mouseleave', stopScroll);
+    });
+  
   </script>
+  
+
 
   <!-- Back To Top Start -->
   <div class="scroll-up">

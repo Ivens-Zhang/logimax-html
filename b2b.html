@@ -169,84 +169,65 @@
 
 
     <!--<< Breadcrumb Section Start >>-->
-    <div class="breadcrumb-wrapper section-padding bg-cover"
-        style="background-image: url('assets/img/breadcrumb.jpg');">
-        <div class="layer-shape wow fadeInLeft" data-wow-delay=".3s">
-            <img src="assets/img/layer-shape-3.png" alt="shape-img">
+    <div class="breadcrumb-wrapper section-padding bg-cover" style="position: relative; overflow: hidden;">
+        <!-- 背景图像层 -->
+        <div class="background-blur"
+            style="background-image: url('assets/img/b2b-breadcrumb.jpg'); filter: blur(5px); position: absolute; top: 0; left: 0; right: 0; bottom: 0; z-index: 1; background-size: cover; background-position: center;">
         </div>
-        <header>
-            <div id="header-sticky" class="header-2" style="margin-top: -100px;">
-              <div class="container-fluid">
-                <div class="mega-menu-wrapper">
-                  <div class="header-main">
-                    <div class="header-center">
-                      <div class="logo">
-                        <a href="index.html" class="header-logo">
-                          <img src="assets/img/logo/logo.svg" alt="logo-img"
-                            style="width:150px;height: 100px; top:20px; left:5px ">
-                        </a>
-                      </div>
-                      <div class="mean__menu-wrapper d-none d-lg-block w-100">
-                        <div class="main-menu">
-                          <nav id="mobile-menu">
-                            <ul>
-                              <li><a href="index.html">Home</a></li>
-                              <li>
-                                <a href="about.html">About</a>
-                              </li>
-                              <li>
-                                <a href="pricing.html">
-                                  Services
-                                </a>
-      
-                              </li>
-                              <li>
-                                <a href="b2b.html">
-                                  B2B
-                                </a>
-                              </li>
-                              <li>
-                                <a href="contact.html">Contact</a>
-                              </li>
-                            </ul>
-                          </nav>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="header-right d-flex justify-content-end align-items-center">
-                      <div class="header-button">
-                        <a href="contact.html" class="theme-btn">GET A QUOTE</a>
-                      </div>
-                      <div class="header__hamburger d-lg-none my-auto">
-                        <div class="sidebar__toggle">
-                          <i class="fa-solid fa-bars"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <!-- 内容层 -->
+        <div class="content-layer" style="position: relative; z-index: 2;">
+            <div class="layer-shape wow fadeInLeft" data-wow-delay=".3s">
+                <img src="assets/img/layer-shape-3.png" alt="shape-img">
             </div>
-          </header>
-        <div class="container">
-            <div class="page-heading">
-                <h1 class="wow fadeInUp" data-wow-delay=".3s">B2B Platform</h1>
-                <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".5s">
-                    <li>
-                        <a href="index.html">
-                            Home Page
-                        </a>
-                    </li>
-                    <li>
-                        <i class="fal fa-minus"></i>
-                    </li>
-                    <li>
-                        B2B
-                    </li>
-                </ul>
+            <header>
+                <div id="header-sticky" class="header-2" style="margin-top: -100px;">
+                    <div class="container-fluid">
+                        <div class="mega-menu-wrapper">
+                            <div class="header-main">
+                                <div class="header-center">
+                                    <div class="logo">
+                                        <a href="index.html" class="header-logo">
+                                            <img src="assets/img/logo/logo.svg" alt="logo-img"
+                                                style="width:150px;height: 100px; top:20px; left:5px;">
+                                        </a>
+                                    </div>
+                                    <div class="mean__menu-wrapper d-none d-lg-block w-100">
+                                        <div class="main-menu">
+                                            <nav id="mobile-menu">
+                                                <ul>
+                                                    <li><a href="index.html">Home</a></li>
+                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="pricing.html">Services</a></li>
+                                                    <li><a href="b2b.html">B2B</a></li>
+                                                    <li><a href="contact.html">Contact</a></li>
+                                                </ul>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="header-right d-flex justify-content-end align-items-center">
+                                    <div class="header-button">
+                                        <a href="contact.html" class="theme-btn">GET A QUOTE</a>
+                                    </div>
+                                    <div class="header__hamburger d-lg-none my-auto">
+                                        <div class="sidebar__toggle">
+                                            <i class="fa-solid fa-bars"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <div class="page-heading">
+                    <h1 class="wow fadeInUp" data-wow-delay=".3s">B2B Platform</h1>
+                </div>
             </div>
         </div>
     </div>
+
 
 
 
@@ -264,45 +245,53 @@
             </div>
             <div class="row" style="padding: 1rem 2rem;">
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="testimonial-card-items active">
-                        <div class="icon">
-                           <i class="flaticon-quotation"></i>
+                    <div class="d-flex row"
+                        style="padding: 1rem 1.2rem;width: 95%; background-color: white; height: 15rem;color: black;">
+                        <div>
+                            <span style="font-size: xx-large;font-weight: bolder;color: rgb(226, 92, 31);">—</span>
+                            <h4 style="color: rgb(226, 92, 31); font-size: x-large;">MISSION</h4>
                         </div>
-                        <div class="testimonial-content">
-                            <span style="font-size: xx-large;font-weight: bolder;">—</span>
-                            <h4>MISSION</h4>
-                            <p style="line-height: 2.5rem;letter-spacing: .05rem;">
-                                Promote the digital transformation and sustainable development of the global wine industry
-                            </p>
-                        </div>
+                        <p style="line-height: 2rem;letter-spacing: .02rem;">
+                            Promote the digital transformation and sustainable development of the global wine industry
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".5s">
-                    <div class="testimonial-card-items active">
-                        <div class="icon">
-                           <i class="flaticon-quotation"></i>
+                    <div class="d-flex row"
+                        style="padding: 1rem 1.2rem;width: 95%; background-color: white; height: 15rem;color: black;">
+                        <div>
+                            <span style="font-size: xx-large;font-weight: bolder;color: rgb(226, 92, 31);">—</span>
+                            <h4 style="color: rgb(226, 92, 31); font-size: x-large;">VISION</h4>
                         </div>
-                        <div class="testimonial-content">
-                            <span style="font-size: xx-large;font-weight: bolder;">—</span>
-                            <h4>VISION</h4>
-                            <p style="line-height: 2.5rem;letter-spacing: .05rem;">
-                                Strive to become the world'slargest B2B cross-border e-commerce one-stop service platform for wine
-                            </p>
-                        </div>
+                        <p style="line-height: 2rem;letter-spacing: .02rem;">
+                            Strive to become the world'slargest B2B cross-border e-commerce one-stop service platform
+                            for wine
+                        </p>
                     </div>
                 </div>
                 <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".7s">
-                    <div class="testimonial-card-items active">
-                        <div class="icon">
-                           <i class="flaticon-quotation"></i>
+                    <div class="d-flex row"
+                        style="padding: 1rem 1.2rem;width: 95%; background-color: white; height: 15rem;color: black;">
+                        <div>
+                            <span style="font-size: xx-large;font-weight: bolder;color: rgb(226, 92, 31);">—</span>
+                            <h4 style="color: rgb(226, 92, 31); font-size: x-large;">VALUE</h4>
                         </div>
-                        <div class="testimonial-content">
-                            <span style="font-size: xx-large;font-weight: bolder;">—</span>
-                            <h4>VALUE</h4>
-                            <p style="line-height: 2.5rem;letter-spacing: .05rem;">
-                                Integrity<br> Responsibility<br> Win-Win
-                            </p>
-                        </div>
+                        <p style="line-height: 2rem;letter-spacing: .02rem;">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-circle" style="font-size: xx-small;margin-right: 1rem;"></i>
+                                Integrity
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle" style="font-size: xx-small;margin-right: 1rem;"></i>
+                                Responsibility
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-circle" style="font-size: xx-small;margin-right: 1rem;"></i>
+                                Win-Win
+                            </li>
+                        </ul>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -314,13 +303,14 @@
         <div class="container">
             <div class="row g-4">
                 <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                    <div class="servie-card-image-items bg-cover" style="background-image: url('assets/img/logo/logo.svg');">
+                    <div class="servie-card-image-items bg-cover"
+                        style="background-image: url('assets/img/logo/logo.svg');">
                         <div class="content">
                             <p> Help your business <br>growing</p>
                             <h3>
                                 Driving Digital <br>
                                 Transformation of Wineries
-                               
+
                             </h3>
                         </div>
                     </div>
@@ -331,11 +321,11 @@
                             <i class="flaticon-warehouse-3"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
                                     digital store
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -345,11 +335,11 @@
                             <i class="fa-solid fa-tachograph-digital"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
                                     digital online <br> trading
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -359,11 +349,11 @@
                             <i class="fa-solid fa-server"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
                                     Digital Big Data Analysis <br>for Customers
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -373,11 +363,11 @@
                             <i class="fa-solid fa-chart-pie"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
                                     Digital Market Insights
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -387,11 +377,11 @@
                             <i class="flaticon-truck-2"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
-                                    digital supply chain  <br> management
+                                    digital supply chain <br> management
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -401,11 +391,11 @@
                             <i class="fa-solid fa-people-arrows"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
                                     digital customer relationship <br> management
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -415,11 +405,11 @@
                             <i class="flaticon-logistics"></i>
                         </div>
                         <div class="content">
-                           <h5>
+                            <h5>
                                 <a href="service-details.html">
                                     blockchain <br> technology
                                 </a>
-                           </h5>
+                            </h5>
                         </div>
                     </div>
                 </div>
@@ -430,29 +420,30 @@
     <!-- Service Provide Section Start -->
     <section class="service-provide">
         <div class="shape-image">
-          <img src="assets/img/service/arrow-shape.png" alt="shape-img" />
+            <img src="assets/img/service/arrow-shape.png" alt="shape-img" />
         </div>
         <div class="container">
-          <div class="row mb-5">
-              <div
-                class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp"
-                data-wow-delay=".3s"
-              >
-                <div class="service-provide-items text-center active">
-                  <div class="content">
-                    <h3 style="color: whitesmoke;">
-                        Would you be interested in trying it in the future?
-                    </h3>
-                    <p style="margin-top: 2rem;padding: 0 5rem;">
-                        Through our B2B one-stop cross-border e-commerce service platform, wineries around the world can transition from traditional overseas agent recruitment to online methods. With real-time language translation, secure and convenient cross-border payments, and comprehensive supply chain services, we solve all intermediary issues for global wine suppliers and buyers, simplifying business operations and facilitating cooperation.
-                    </p>
-                  </div>
+            <div class="row mb-5">
+                <div class="col-xl-12 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                    <div class="service-provide-items text-center ">
+                        <div class="content">
+                            <p style="font-size: 1.5rem; font-weight: bolder;letter-spacing: .02rem;color: black;">
+                                " Would you be interested in trying it in the future? "
+                            </p>
+                            <p style="margin-top: 2rem;padding: 0 5rem;">
+                                Through our B2B one-stop cross-border e-commerce service platform, wineries around the
+                                world can transition from traditional overseas agent recruitment to online methods. With
+                                real-time language translation, secure and convenient cross-border payments, and
+                                comprehensive supply chain services, we solve all intermediary issues for global wine
+                                suppliers and buyers, simplifying business operations and facilitating cooperation.
+                            </p>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
         </div>
-      </section>
-     <!-- Footer Section Start -->
+    </section>
+    <!-- Footer Section Start -->
     <footer class="footer-section fix footer-bg">
         <div class="container">
             <div class="footer-widgets-wrapper">
@@ -469,7 +460,7 @@
                                     Promote the digital transformation and sustainable development of the global wine
                                     industry.
                                 </p>
-                                <div class="social-icon d-flex align-items-center">
+                                <div class="social-icon d-flex" style="justify-content: center; gap: 2rem;">
                                     <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
                                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
