@@ -2644,6 +2644,13 @@ input.main-search-input::placeholder {
   }
 }
 
+/* @media (min-width: 575px) {
+  .growth-section {
+    padding-top: -10px;
+  }
+} */
+
+
 .growth-wrapper .growth-content .circle-progress-bar-wrapper {
   margin-top: 50px;
 }
@@ -10037,3 +10044,10 @@ p.sticky-label {
     height: 18rem;
   }
 }
+
+@media (min-width: 992px) {
+  .about-introduction-img {
+    height: 25rem
+  }
+}
+
